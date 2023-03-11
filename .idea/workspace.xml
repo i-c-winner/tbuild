@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2640762c-ab02-4772-865e-8b50223c1710" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/PersonalAcaunt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/PersonalAccaunt.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routs/routs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PersonalAcaunt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PersonalAcaunt.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -39,11 +45,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/home/dimitriy/Documents/work/Tashkent/tbuild",
+    "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_interpreter_path": "/home/dimitriy/.config/nvm/versions/node/v16.19.1/bin/npm",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.nodejs",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -55,7 +66,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678510781295</updated>
-      <workItem from="1678510782347" duration="2665000" />
+      <workItem from="1678510782347" duration="10403000" />
+      <workItem from="1678527507344" duration="403000" />
     </task>
     <servers />
   </component>
