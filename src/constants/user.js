@@ -7,11 +7,11 @@ const user={
 
 const projects={
   build: {
-    name: 'build',
+    name: 'Жилой дом по адресу',
     id: 1
   },
   work: {
-    name: 'work',
+    name: 'Завод по производству... ',
     id: 2
   }
 }

@@ -1,0 +1,11 @@
+.personal-accaunt {
+&__title {
+  text-align: center;
+}
+  &__data {
+    display: flex;
+    justify-content: space-around;
+  }
+
+}
+
