@@ -8,6 +8,7 @@ function Row(props) {
       <React.Fragment>
         {Object.entries(props.row).map(cell => {
           const path=`/orders/${props.row.id}`
+          console.log(path)
           if (cell[0] === 'total_price') {
             console.log(props.row.value)
             return <td key={cell[0]}><Link to="path">{props.row.value * props.row.init_price}</Link></td>
