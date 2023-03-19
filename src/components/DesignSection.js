@@ -12,6 +12,7 @@ function DesignSection (props) {
       <Link to="/">Home</Link>
       <h3>Список позаций по определенному разделу {section}</h3>
       <Rows section={section} />
+      <button className="section__order-button">Создать заявку</button>
     </div>
 
   )
