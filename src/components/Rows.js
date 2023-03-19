@@ -9,15 +9,16 @@ function Rows(props) {
       <thead>
       <tr>
         {Object.keys(rows[0]).map(key=>{
-        return <td >{key}</td>})
+        return <td key={key}>{key}</td>})
         }
       </tr>
+
+      </thead>
       <tbody>
       {rows.map(row=>{
-        return <tr><Row row={row} key={row.id} /></tr>
+        return <Row row={row} key={row.id} />
       })}
       </tbody>
-      </thead>
     </table>
   </div>)
 }

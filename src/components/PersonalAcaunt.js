@@ -2,7 +2,6 @@ import React from 'react'
 import {List, Box} from "@mui/material";
 import {user} from "../constants/user"
 import {projects} from "../constants/user";
-import './PersonalAccaunt.scss'
 import {Link} from "react-router-dom";
 
 const classesForList = {

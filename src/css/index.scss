@@ -1,0 +1,16 @@
+.personal-accaunt {
+
+  &__title{
+    color: red;
+  }
+  &__data {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.design_section {
+  border-radius: 5px;
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 0 0 5px 5px green;
+}
