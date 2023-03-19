@@ -1,11 +1,20 @@
 import React from "react";
+import {Link, useParams} from "react-router-dom";
+import filter from "../utils/filter";
 import Rows from "./Rows";
-
 function DesignSection (props) {
-  return <div className="design_section">
-    <h3>Раздел проекта - {props.section}</h3>
-<Rows section={props.section} />
-  </div>
+  const {section}=useParams()
+  console.log(section)
+  const rows=filter('design_section', section)
+  console.log(rows)
+  return (
+    <div className="section">
+      <Link to="/">Home</Link>
+      <h3>Список позаций по определенному разделу {section}</h3>
+      <Rows section={section} />
+    </div>
+
+  )
 }
 
 export default DesignSection

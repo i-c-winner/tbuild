@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom";
 import {design_sections} from "../constants/user";
-import DesignSection from "./DesignSection";
+import DesignSections from "./DesignSections";
 
 
 
@@ -9,9 +9,9 @@ function Project () {
   return(
     <div>
       <Link to="/">Home</Link>
-      <h2>Сводная таблица по проекту</h2>
+      <h2>Сводная таблица по проекту такому-то</h2>
       {design_sections.map(section=>{
-return <DesignSection section={section} key={section}/>
+return <DesignSections section={section} key={section}/>
       })}
     </div>
   )
