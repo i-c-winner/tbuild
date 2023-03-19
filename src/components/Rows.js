@@ -1,5 +1,4 @@
 import React from "react";
-import {main} from "../constants/user";
 import filter from "../utils/filter";
 import Row from "./Row";
 

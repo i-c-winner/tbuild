@@ -1,5 +1,5 @@
 import React from 'react'
-import filter from "../utils/filter";
+
 import {design_sections} from "../constants/user";
 import DesignSection from "./DesignSection";
 
