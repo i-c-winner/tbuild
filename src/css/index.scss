@@ -1,5 +1,12 @@
-.personal-accaunt {
+@mixin tr{
+  text-align: center;
+}
 
+@mixin td {
+   padding: 5px 10px;
+}
+
+.personal-accaunt {
   &__title{
     color: red;
   }
@@ -14,3 +21,24 @@
   padding: 10px;
   box-shadow: 0 0 5px 5px green;
 }
+table{
+  width: 100%;
+  thead {
+    tr{
+      background-color: cornsilk;
+      @include tr;
+      td {
+        @include td
+      }
+    }
+  }
+  tbody {
+    tr {
+      background-color: lawngreen;
+      @include tr;
+      td {
+        @include td
+      }
+    }
+  }
+ }
