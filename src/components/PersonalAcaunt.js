@@ -14,7 +14,7 @@ const classesForList = {
 
 function PersonalAccaunt() {
 function getUrl(url) {
-    return `/project/${url}`
+    return `/${url}`
 }
   return (
     <div className="personal-accaunt">
