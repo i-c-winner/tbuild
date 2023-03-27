@@ -1,6 +1,6 @@
 import React from "react";
 import Order from "./Order";
-import {Link} from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 
 const data={
   id: 1001,
@@ -9,7 +9,11 @@ const data={
   value: 250
 }
 function Orders() {
-
+const {order, project}=useParams()
+    console.log(useParams())
+    function getPath() {
+    return `/create-order/${project}/${order}`
+    }
   return (
     <div className="orders">
       <Link to="/">Home</Link>
@@ -20,6 +24,7 @@ function Orders() {
         <Order data={data}/>
         <Order data={data}/>
       </div>
+        <Link to={getPath()}>Создать заявку</Link>
     </div>
 
   )
