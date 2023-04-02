@@ -1,6 +1,5 @@
 import React from "react";
 import {Link, useParams} from "react-router-dom";
-import filter from "../utils/filter";
 import Rows from "./Rows";
 function DesignSection (props) {
   const {section}=useParams()
