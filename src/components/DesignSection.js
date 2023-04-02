@@ -4,7 +4,6 @@ import filter from "../utils/filter";
 import Rows from "./Rows";
 function DesignSection (props) {
   const {section}=useParams()
-  const rows=filter('design_section', section)
   return (
     <div className="section">
       <Link to="/">Home</Link>
