@@ -10,7 +10,6 @@ function getPath(id) {
       <React.Fragment>
         {Object.entries(props.row).map(cell => {
           if (cell[0] === 'total_price') {
-            console.log(props.row.value)
             return <td key={cell[0]}><Link to={getPath(props.row.id)}>{props.row.value * props.row.init_price}</Link></td>
           } else if (cell[0] === 'price') {
             return <td key={cell[0]}><Link to={getPath(props.row.id)}>{props.row.ordered_value * props.row.init_price}</Link></td>

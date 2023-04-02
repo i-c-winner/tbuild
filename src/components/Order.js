@@ -1,7 +1,6 @@
 import React from "react";
 
 function Order (props) {
-  console.log(props)
   const {
     id,
     name,

@@ -10,7 +10,6 @@ const data={
 }
 function Orders() {
 const {order, project}=useParams()
-    console.log(useParams())
     function getPath() {
     return `/create-order/${project}/${order}`
     }
