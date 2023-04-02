@@ -14,7 +14,6 @@ function CreateOrder() {
   }
 
   function changeValue(event) {
-    console.log(event)
     setOrdering(event.target.value)
   }
 
