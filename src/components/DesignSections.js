@@ -1,5 +1,4 @@
 import React from "react";
-import Rows from "./Rows";
 import {Link} from "react-router-dom";
 
 function DesignSections (props) {
