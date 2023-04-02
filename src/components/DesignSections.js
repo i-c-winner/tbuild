@@ -10,7 +10,6 @@ function DesignSections (props) {
     <p>Раздел проекта - {props.section}</p>
     <Link  className="button button_designsections" to={getPath(props.section)}>Подробней</Link>
     <button className="button button_designsections">Скачать актуальную версию чертежей</button>
-{/*<Rows section={props.section} />*/}
   </div>
 }
 
