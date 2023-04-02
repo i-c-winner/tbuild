@@ -29,10 +29,6 @@ function CreateOrder() {
   return (<div className="create-order">
       <p className="create-order__title ">Создать заявку</p>
       <p className="create-order__name">{data.name}</p>
-      <p>{data.init_price}</p>
-      <p>{data.value}</p>
-      <p>{data.ordered_value}</p>
-      <p>{data.value * data.init_price}</p>
       <div className="create-order__card">
         <p className="create-order__total">
           Общее количество :{data.value} {data.init_type}
