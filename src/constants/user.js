@@ -11,6 +11,10 @@ const price={
   valve_25: 200,
   valve_32: 250,
   valve_40: 300,
+  danffoss_d_45: 2600,
+  danffoss_d_100: 3200,
+  danffoss_d_150: 4000,
+  danffoss_d_200: 8000,
 }
 const design_sections=['AR', 'KZ', 'VK']
 const user = {
@@ -130,6 +134,58 @@ const main = [
     init_price: price.valve_40,
     total_price: 0,
     ordered_value: 2300,
+    price: 0,
+    last_price:0,
+    design_section: 'VK'
+  },
+  {
+    id: 306,
+    name: "Pump Danffoss d 45",
+    type: "equimpent",
+    value: 20,
+    init_type: "init",
+    init_price: price.danffoss_d_45,
+    total_price: 0,
+    ordered_value: 5,
+    price: 0,
+    last_price:0,
+    design_section: 'VK'
+  },
+  {
+    id: 307,
+    name: "Pump Danffoss d 100",
+    type: "equimpent",
+    value: 20,
+    init_type: "init",
+    init_price: price.danffoss_d_100,
+    total_price: 0,
+    ordered_value: 5,
+    price: 0,
+    last_price:0,
+    design_section: 'VK'
+  },
+  {
+    id: 308,
+    name: "Pump Danffoss d 150",
+    type: "equimpent",
+    value: 20,
+    init_type: "init",
+    init_price: price.danffoss_d_150,
+    total_price: 0,
+    ordered_value: 5,
+    price: 0,
+    last_price:0,
+    design_section: 'VK'
+  },
+  {
+    id: 309,
+    name: "Pump Danffoss d 200",
+    type: "equimpent",
+    value: 20,
+    init_type: "init",
+    init_price: price.danffoss_d_200,
+    total_price: 0,
+    ordered_value: 5,
     price: 0,
     last_price:0,
     design_section: 'VK'
