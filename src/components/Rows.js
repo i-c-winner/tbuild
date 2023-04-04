@@ -1,6 +1,7 @@
 import React from "react";
 import filter from "../utils/filter";
 import Row from "./Row";
+import getTitle from "../utils/getTitle";
 
 function Rows(props) {
   const rows = filter('design_section', props.section)
@@ -9,7 +10,7 @@ function Rows(props) {
       <thead>
       <tr>
         {Object.keys(rows[0]).map(key=>{
-        return <td key={key}>{key}</td>})
+        return <td key={key}>{getTitle(key)}</td>})
         }
       </tr>
 
